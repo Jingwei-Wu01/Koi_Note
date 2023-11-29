@@ -51,7 +51,15 @@ New repository
 
 `git remote add origin git@github.com:Jingwei-Wu01/Koi_Note.git` 
 
-`git push -f origin master`
+> <u>***暂时忽略***</u>
+>
+> 创建新仓库时需要：`git clone git@github.com:Koi-OI/Koi-OI.github.io.git`
+>
+> ⬆️此时Git 会使用你的 SSH 私钥进行认证。
+>
+> **后续操作**：一旦克隆完成，你就可以进入仓库目录，进行正常的 Git 操作（如 `git pull`, `git push` 等），Git 会自动使用 SSH 进行通信。
+
+`git push -f origin master`    
 
 
 
@@ -120,3 +128,23 @@ git commit
 ```
 git push origin master
 ```
+
+
+
+
+
+
+
+<!--遇到的问题！！！！-->
+
+(base) k@KdeMacBook-Pro weblearning %` git push -f origin master`
+
+Username for 'https://github.com': Koi-OI 
+
+**Password for 'https://Koi-OI@github.com':** 
+
+remote: Support for password authentication was removed on August 13, 2021.
+
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+
+fatal: Authentication failed for 'https://github.com/Koi-OI/Koi-OI.github.io.git/'

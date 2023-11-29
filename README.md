@@ -1,1 +1,1 @@
-K0I learning CS and taking notes.
+K0I learning CS.
